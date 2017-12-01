@@ -1,0 +1,25 @@
+{
+  "name": "pheicloud/pheiphone",
+  "description": "location of phone number",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "pheicloud",
+      "email": "pheicloud@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Pheicloud\\Pheiphone\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pheicloud\\Pheiphone\\Tests\\": "tests/"
+    }
+  }
+}
