@@ -12,16 +12,16 @@ composer require "pheicloud/pheiphone"
 
 ## 3. 使用
 
+
+### 3.1 注册
+
 ```
+Pheicloud\Pheiphone\PheiphoneServiceProvider::class,
 
-<?php
-use Pheicloud\Pheiphone;
-
-// composer 方式安装
-// include './vendor/autoload.php';
-
-$phone = new Pheiphone();
-$info = $phone->find(18621281566);
+```
+### 3.2 解析
+```
+$phone = app('pheiphone')->find(18621281566);
 print_r($info);
 
 // Output;
@@ -36,10 +36,12 @@ Array
 ```
 
 ## 4 Thanks
-``
+```
 https://github.com/lovedboy/phone
+
 https://github.com/shitoudev/phone-location
-``
+
+```
 
 ## 5. License
 
